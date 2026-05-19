@@ -1,11 +1,11 @@
 import { useState, useEffect, useRef } from "react";
-import Intro from "./components/Intro.jsx";
-import Form from "./components/Form.jsx";
-import MCQ from "./components/MCQ.jsx";
-import MCQPIC from "./components/MCQPIC.jsx";
-import Finale from "./components/Finale.jsx";
-import Proposal from "./components/Proposal.jsx";
-import Outro from "./components/Outro.jsx";
+import Intro from "./components/Intro";
+import Form from "./components/Form";
+import MCQ from "./components/MCQ";
+import MCQPIC from "./components/MCQPIC";
+import Finale from "./components/Finale";
+import Proposal from "./components/Proposal";
+import Outro from "./components/Outro";
 
 function App() {
   const [screen, setScreen] = useState(1);
