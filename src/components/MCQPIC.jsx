@@ -12,9 +12,9 @@ function MCQPIC({ setScreen }) {
     <>
       {questionNo === 1 && (
         <QuestionPic
-          question="Who's the cutest??"
-          src1=""
-          src2=""
+          question="What's my favorite notification??"
+          src1="/Screenshot_20191101_012609.png"
+          src2="/arsenalWin.jpeg"
           setQuestionNo={setQuestionNo}
         />
       )}
