@@ -30,12 +30,12 @@ function QuestionPic({ question, src1, src2, setQuestionNo }) {
       </h1>
       <div className="flex gap-16">
         <img
-          src={""}
+          src={src1}
           className={`h-64 w-64 object-cover rounded-3xl ${answer ? "border-none" : "border-4"} border-pink-700 cursor-pointer`}
           onClick={() => setAnswer("right")}
         />
         <img
-          src={""}
+          src={src2}
           className={`h-64 w-64 object-cover rounded-3xl ${answer ? "border-none" : "border-4"} border-pink-700 cursor-pointer ${answer === "wrong" ? "animate-shake" : ""}`}
           onClick={() => setAnswer("wrong")}
         />
