@@ -13,7 +13,7 @@ function MCQPIC({ setScreen }) {
       {questionNo === 1 && (
         <QuestionPic
           question="What's my favorite notification??"
-          src1="/Screenshot_20191101_012609.png"
+          src1="/firstReply.jpeg"
           src2="/arsenalWin.jpeg"
           setQuestionNo={setQuestionNo}
         />
@@ -21,16 +21,16 @@ function MCQPIC({ setScreen }) {
       {questionNo === 2 && (
         <QuestionPic
           question="Who has the best smile?"
-          src1=""
-          src2=""
+          src1="/ruchiSmile.jpeg"
+          src2="/smile.jpeg"
           setQuestionNo={setQuestionNo}
         />
       )}
       {questionNo === 3 && (
         <QuestionPic
           question="Who has the best forehead??"
-          src1=""
-          src2=""
+          src1="/ruchiForehead.jpeg"
+          src2="/forehead.jpeg"
           setQuestionNo={setQuestionNo}
         />
       )}
