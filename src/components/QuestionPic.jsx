@@ -21,22 +21,22 @@ function QuestionPic({ question, src1, src2, setQuestionNo }) {
   }, [answer]);
   return (
     <section
-      className={`p-4 h-screen w-screen flex flex-col items-center justify-center gap-6 animate-fadeIn text-pink-700 transition duration-500 ${answer === "right" ? "bg-green-500" : ""} ${answer === "wrong" ? "bg-red-700" : ""} ${answer ? "cursor-not-allowed" : "bg-pink-100"}`}
+      className={`p-4 h-screen w-full flex flex-col items-center justify-center gap-6 animate-fadeIn text-pink-700 transition duration-500 ${answer === "right" ? "bg-green-500" : ""} ${answer === "wrong" ? "bg-red-700" : ""} ${answer ? "cursor-not-allowed" : "bg-pink-100"}`}
     >
       <h1
         className={`text-4xl font-bold text-center transition ${answer ? "text-white" : "text-pink-700"}`}
       >
         {question}
       </h1>
-      <div className="flex gap-16">
+      <div className="flex w-full gap-16">
         <img
           src={src1}
-          className={`w-1/2 aspect-square object-cover rounded-3xl ${answer ? "border-none" : "border-4"} border-pink-700 cursor-pointer`}
+          className={`flex-1 aspect-square object-cover rounded-3xl ${answer ? "border-none" : "border-4"} border-pink-700 cursor-pointer`}
           onClick={() => setAnswer("right")}
         />
         <img
           src={src2}
-          className={`w-1/2 aspect-square object-cover rounded-3xl ${answer ? "border-none" : "border-4"} border-pink-700 cursor-pointer ${answer === "wrong" ? "animate-shake" : ""}`}
+          className={`flex-1 aspect-square object-cover rounded-3xl ${answer ? "border-none" : "border-4"} border-pink-700 cursor-pointer ${answer === "wrong" ? "animate-shake" : ""}`}
           onClick={() => setAnswer("wrong")}
         />
       </div>
