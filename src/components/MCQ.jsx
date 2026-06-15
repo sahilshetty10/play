@@ -13,11 +13,11 @@ function MCQ({ setScreen }) {
     <>
       {questionNo === 1 && (
         <Question
-          question="Do you like me??"
-          option1="Yes"
-          option2="No"
-          rightAnswerReply="I like you too!!"
-          wrongAnswerReply="Good joke lol!!!!"
+          question="Who is funnier?"
+          option1="Ruchi"
+          option2="Sahil"
+          rightAnswerReply="Keep telling yourself that, it's adorable!!"
+          wrongAnswerReply="At least you're self-aware. Don't worry, I carry enough humor for both of us!"
           setQuestionNo={setQuestionNo}
         />
       )}
@@ -33,11 +33,11 @@ function MCQ({ setScreen }) {
       )}
       {questionNo === 3 && (
         <Question
-          question="Am I Annoying?"
+          question="Do you love me even when I'm being annoying?"
           option1="Yes"
           option2="No"
-          rightAnswerReply="You are correct! But you have no choice!🥰"
-          wrongAnswerReply="Aww thank youu but dw I'll be annoying you soon 😘"
+          rightAnswerReply="I knew you were a saint. Thanks for putting up with my greatness 🥰"
+          wrongAnswerReply="Fake news. You adore my chaos, just admit it 😘"
           setQuestionNo={setQuestionNo}
         />
       )}
