@@ -9,7 +9,7 @@ function Finale() {
     if (part === 1) {
       const timer = setTimeout(() => {
         setPart(2);
-      }, 3000);
+      }, 2000);
 
       return () => clearTimeout(timer);
     }
