@@ -59,6 +59,8 @@ function Proposal({ setScreen }) {
             Be
           </h1>
         )}
+      </div>
+      <div classname="flex gap-4">
         {my && (
           <h1 className="text-4xl font-bold text-center animate-fadeIn transition duration-300">
             My
