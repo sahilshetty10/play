@@ -29,7 +29,7 @@ function MCQPIC({ setScreen }) {
       {questionNo === 3 && (
         <QuestionPic
           question="Who has the best forehead??"
-          src1="/ruchiForehead.jpeg"
+          src1="/ruchiForehead2.jpeg"
           src2="/forehead.jpeg"
           setQuestionNo={setQuestionNo}
         />
