@@ -8,7 +8,7 @@ import Proposal from "./components/Proposal";
 import Outro from "./components/Outro";
 
 function App() {
-  const [screen, setScreen] = useState(4);
+  const [screen, setScreen] = useState(1);
   const audioRef = useRef(null);
 
   return (
