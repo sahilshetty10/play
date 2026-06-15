@@ -14,7 +14,7 @@ function App() {
   return (
     <main>
       <audio ref={audioRef} loop className="hidden">
-        <source src="/bg_music.mp3" type="audio/mpeg" />
+        <source src="/bg_song.mp3" type="audio/mpeg" />
       </audio>
       {screen === 1 && <Intro setScreen={setScreen} audioRef={audioRef} />}
       {screen === 2 && <Form setScreen={setScreen} />}
