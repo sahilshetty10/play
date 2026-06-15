@@ -31,12 +31,12 @@ function QuestionPic({ question, src1, src2, setQuestionNo }) {
       <div className="flex w-full gap-16">
         <img
           src={src1}
-          className={`flex-1 aspect-square object-cover rounded-3xl ${answer ? "border-none" : "border-4"} border-pink-700 cursor-pointer`}
+          className={`w-[30%] aspect-square object-cover rounded-3xl ${answer ? "border-none" : "border-4"} border-pink-700 cursor-pointer`}
           onClick={() => setAnswer("right")}
         />
         <img
           src={src2}
-          className={`flex-1 aspect-square object-cover rounded-3xl ${answer ? "border-none" : "border-4"} border-pink-700 cursor-pointer ${answer === "wrong" ? "animate-shake" : ""}`}
+          className={`w-[30%] aspect-square object-cover rounded-3xl ${answer ? "border-none" : "border-4"} border-pink-700 cursor-pointer ${answer === "wrong" ? "animate-shake" : ""}`}
           onClick={() => setAnswer("wrong")}
         />
       </div>
