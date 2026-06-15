@@ -28,7 +28,7 @@ function QuestionPic({ question, src1, src2, setQuestionNo }) {
       >
         {question}
       </h1>
-      <div className="flex justify-center w-full gap-16">
+      <div className="flex justify-center w-full gap-8 p-8">
         <img
           src={src1}
           className={`w-[50%] aspect-square object-cover rounded-3xl ${answer ? "border-none" : "border-4"} border-pink-700 cursor-pointer`}
